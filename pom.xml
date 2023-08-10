@@ -12,6 +12,8 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <sourceDirectory>C:\Users\hri.e\Desktop\HW_netology\HW_jaCoCo\src\main\java</sourceDirectory>
+        <outputDirectory>C:\Users\hri.e\Desktop\HW_netology\HW_jaCoCo\target\classes</outputDirectory>
     </properties>
 
     <dependencies>
@@ -37,7 +39,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.5</version>
+                <version>0.8.7</version>
 
                 <executions>
                     <execution>
